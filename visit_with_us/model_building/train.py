@@ -24,7 +24,7 @@ from huggingface_hub.utils import RepositoryNotFoundError
 # experiment tracking
 import mlflow
 
-mlflow.set_tracking_uri(public_url)
+mlflow.set_tracking_uri("https://mongrel-joylessly-hush.ngrok-free.dev")
 mlflow.set_experiment("tourism-package-prediction")
 
 api = HfApi()
